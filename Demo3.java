@@ -1,15 +1,15 @@
 public class Demo3 {
     public static void main(String[] args) {
         
-        int Telephnum_1=123;
-        int Telephnum_2=456;
-        int Telephnum_3=7890;
+        int telephnum_1=123;
+        int telephnum_2=456;
+        int telephnum_3=7890;
 
-        String a= "\033[34;1m";
-        String b= "\033[34;0";
+        String a= "\033[45m";
+        String b= "\033[40m";
 
         
-        System.out.printf("(%s%s%s)%s-%s",a,Telephnum_1,b,Telephnum_2,Telephnum_3);
+        System.out.printf("(%s%s%s)%s-%s",a,telephnum_1,b,telephnum_2,telephnum_3);
 
 
 
