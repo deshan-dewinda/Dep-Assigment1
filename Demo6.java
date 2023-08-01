@@ -8,8 +8,10 @@ public class Demo6 {
         String character ="%";
         
 
-        System.out.printf("%5s[%5s%-5s%s%-4s]%s",red,firstInt,green,secondInt,character,a);
+       System.out.printf("%5s[%5s%-5s%s%-4s]%s",red,firstInt,green,secondInt,character,a);
 
+
+     
     }
     
 }
